@@ -1,4 +1,4 @@
-FROM ubuntu:14.04  
+FROM python:2.7
 
 MAINTAINER Rajdeep Dua "TimReilly@live.com"
 RUN apt-get update -y
