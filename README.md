@@ -26,13 +26,13 @@ docker push username/image:tag
 1. Create new resource by searching Linux App: 
 
 <kbd>
-<img src="http://imgur.com/uqxNizy.png" width="500">
+<img src="http://imgur.com/uqxNizy.png" width="800">
 </kbd>
 
 2. Give the app a *name*, *resource group* and new *app service plan*. You can configure the container now or later, but if you do it later you'll have to remove the *application settings* for Node 4.5 or whatever has been defaulted. 
 
 <kbd>
-<img src="http://imgur.com/i7aPq5q.png" width="500">
+<img src="http://imgur.com/i7aPq5q.png" width="800">
 </kbd> 
 
 Here you can see I set it to point to `timmyreilly/flaskweb:latest` this will pull the container containing very basic flask app that serves a photo and uses NGINX. 
@@ -43,7 +43,7 @@ http://yoursitename.azurewebsites.net !
 If you used my container it should look like this: 
 
 <kbd>
-<img src="http://imgur.com/ovPlyGx.png" width="500">
+<img src="http://imgur.com/ovPlyGx.png" width="800">
 </kbd> 
 
 
