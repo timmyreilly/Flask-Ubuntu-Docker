@@ -11,9 +11,7 @@
 #### To See the running instance:
 `$ docker ps`
 
-
 #### To Kill:
-
 `$ docker kill [thirsty_mayer or container id - found by running docker ps]`  
 
 
@@ -25,4 +23,28 @@ docker push username/image:tag
 
 ## To deploy to Azure: 
 
-Azure App Service 
+1. Create new resource by searching Linux App: 
+
+<kbd>
+<img src="http://imgur.com/uqxNizy" width="500">
+</kbd>
+
+2. Give the app a *name*, *resource group* and new *app service plan*. You can configure the container now or later, but if you do it later you'll have to remove the *application settings* for Node 4.5 or whatever has been defaulted. 
+
+<kbd>
+<img src="http://imgur.com/i7aPq5q" width="500">
+</kbd> 
+
+Here you can see I set it to point to `timmyreilly/flaskweb:latest` this will pull the container containing very basic flask app that serves a photo and uses NGINX. 
+
+3. Visit the completed site: 
+http://yoursitename.azurewebsites.net !
+
+If you used my container it should look like this: 
+
+<kbd>
+<img src="http://imgur.com/ovPlyGx" width="500">
+</kbd> 
+
+
+
