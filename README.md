@@ -2,11 +2,14 @@
 
 ### Docker style
 
+#### Clone: 
+`$ git clone https://github.com/timmyreilly/Flask-Ubuntu-Docker.git`
+
 #### To Build: 
-`$ docker build -t flaskweb:latest . `
+`$ docker build -t username/webappname:latest . `
 
 #### To Start Locally: (interactive)
-`$ docker run -i -p 8080:80 239186a08c40` 
+`$ docker run -i -p 8080:80 username/webappname:latest` 
 
 #### To See the running instance:
 `$ docker ps`
@@ -17,8 +20,7 @@
 
 #### To Push to Docker:
 
-docker push username/image:tag 
-
+`docker push username/webappname:tag `
 
 
 ## To deploy to Azure: 
