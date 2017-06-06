@@ -5,8 +5,8 @@
 #### To Build: 
 `$ docker build -t flaskweb:latest . `
 
-#### To Start: (interactive)
-`$ docker run -p 5000:5000 -i --rm flaskweb:latest` 
+#### To Start Locally: (interactive)
+`$ docker run -i -p 8080:80 239186a08c40` 
 
 #### To See the running instance:
 `$ docker ps`
@@ -17,4 +17,12 @@
 `$ docker kill [thirsty_mayer or container id - found by running docker ps]`  
 
 
-To deploy to Azure: 
+#### To Push to Docker:
+
+docker push username/image:tag 
+
+
+
+## To deploy to Azure: 
+
+Azure App Service 
