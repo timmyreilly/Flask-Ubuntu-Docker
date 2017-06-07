@@ -50,3 +50,6 @@ If you used my container it should look like this:
 
 
 
+### References
+
+[Uwsgi-nginx-flask-docker image from tiangolo](https://github.com/tiangolo/uwsgi-nginx-flask-docker)
